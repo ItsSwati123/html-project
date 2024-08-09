@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--
+    All the HTML 5 start with a document type declaration of HTML.
+-->
+    
+<html lang="en">
+    <!--
+        - HTML tag to represent html script.
+        - It represents the default language of the script as English.
+    -->
+
+<head> <!-- Opening tag for Head -->
+
+    <!--
+        - Meta tag basically defines about the page.
+        - Like:
+                - Charachter set
+                - About the webpage
+                - Viewport 
+                - About the author
+                - Compartibility with the browser
+                - Refresh Rate.....
+    -->
+    <meta character set="UTF-8">  <!-- efines the character set used-->
+    <meta name="viewport" content="width =device-width, initial-scale=1.0">
+    <!-- Makes the document look proper on the respective devices -->
+     
+    <title> My first HTML page</title>   <!-- efines thr title for the document. -->
+
+</head>     <!-- Closing tag for Head -->
+
+<body>      <!-- Opening taf for body -->
+    <!-- The code turns to be visible in this section -->
+
+    <p><!-- A paragraph tag -->
+        Hello World !!
+        orem ispum is simply dummut text of thr priting and typesettinh industry
+    </p>
+
+    <h1> <!-- A heading tag -->
+        Hello World !! 
+    </h1>
+
+    <!--
+        Heading tags
+            - Are used to define with <h1> to <h6> tags (6 styles of Heading)
+    -->
+
+    <h1>Heading 1</h1>
+    <h2>Heading 1</h2>
+    <h3>Heading 1</h3>
+    <h4>Heading 1</h4>
+    <h5>Heading 1</h5>
+    <h6>Heading 1</h6>
+
+
+    <!-- 
+        Paragraph tag
+            - Define by a <p> tag.
+    -->
+    <p>My First Paragraph</p>
+    <p>This is my second paragraph.</p>
+
+    <!-- 
+        Comments 
+            - Represented to show a comment.
+            - Acomment is the part which is non executable.
+            - It is used is for reffering about a specific details.
+    
+    -->
+
+    <!-- 
+        Links/ Anchor tag
+            - Denoted by <a> tag
+            - Helps is specifing the location of a specific file as a value in"herf" key
+            - By deafult it opens on the same page.
+            
+            - To make the clickable page to open in a new tab, we need to add an
+              attribute key called "target" with a value as "_blank".
+     -->
+    <a href="./HTML-02" target="_blank" >Click Me</a>
+
+    <!--
+        Images
+             - Any image to be uploaded needs to be entitled in <image> tag
+             - It needs an attribute key called "src"(Source) to define the image
+               location and its file name format in the value part.
+             - It needs an attribute key called "alt"(alternative) to define if the
+               displayed in place of it.
+             - Width is a key helps in deciding the value of image's width.
+             - Height is a key helps in deciding the value of the image's height.
+    -->
+    <img src="./Captura-de-Pantalla-2019-12-17-a-las-10.39.03.png.webp" alt="Image"
+    width="280px" height="280px">  <!--Relative URL Example-->
+
+    <!-- 
+        SRC's URL 
+            ->Absolute URL
+                    - Direct link of another web server.
+                    
+            ->Relative URL
+                    - URL location of a file from your own server
+    -->
+    <img src="" alt="Plant Image" width="280px" height="380px">
+
+    <!-- 
+            Nested HTML Elements
+                - Elemens are contained inside another element.
+    -->
+
+    <a href="https://www.amazon.in/" target="_blank">
+        <img src="./React_YT_Thumbnail.png" alt="Logo" width="460px" height="380px">
+    </a>
+
+    <hr>
+
+    <h3> Formating Tags</h3>
+    <!--
+            Formating Tags
+                - They are basically used to format texts.
+                    <b>         - Bold
+                    <strong>    - Important text
+                    <i>         - Italics
+                    <em>        - Emphasized
+                    <mark>      - Marked Text
+                    <small>     - Smaller Text
+                    <del>       - Deleted Text
+                    <ins>       - Inserted Text
+                    <sub>       - Sub Script Text
+                    <sup>       - Super Script Text
+    -->
+        
+    <p>This is an <strong>important</strong> and <b>bold</b> text.</p>
+
+    <p>This text is in <i>Italicts</i> and its is <em>Ephasized</em></p>
+
+    <p>It is <mark>Marked</mark> text and it is a <small> small</small> text.</p>
+
+    <p>This text has been <del> Deleted </del> off with a newer <ins>Inserted</ins> Text</p>
+
+    <p>This is an example of <sub >Subscript </sub> text and one is <sup> Super script</sup> text.</p>
